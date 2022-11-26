@@ -1,0 +1,34 @@
+
+public class Player {
+	//atritubos
+	private String name;
+	private Integer score;
+	
+	//construtor
+	public Player(String name) {
+		this.name = name;
+		this.score = 0;
+	}
+	
+	public void incrementScore() {
+		setScore(getScore() + 1);
+	}
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Integer getScore() {
+		return score;
+	}
+
+	public void setScore(Integer score) {
+		this.score = score;
+	}
+
+}
